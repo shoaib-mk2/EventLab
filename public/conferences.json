@@ -9,16 +9,16 @@
         "location": "San Francisco, CA",
         "speakers": [
             {
-                "name": "Sarah Johnson",
-                "title": "CTO, Tech Innovations Inc.",
-                "bio": "Sarah Johnson is a seasoned technologist and CTO at Tech Innovations Inc. With over 15 years of experience, she has led several cutting-edge projects in AI and machine learning.",
-                "image": "https://i.ibb.co/ZcSVwqB/woman-1.jpg"
-            },
-            {
                 "name": "Michael Davis",
                 "title": "VP of Engineering, FutureTech Labs",
                 "bio": "Michael Davis is a technology enthusiast and VP of Engineering at FutureTech Labs. He specializes in IoT, blockchain, and cybersecurity.",
                 "image": "https://i.ibb.co/MBJbgSP/man-1.jpg"
+            },
+            {
+                "name": "Sarah Johnson",
+                "title": "CTO, Tech Innovations Inc.",
+                "bio": "Sarah Johnson is a seasoned technologist and CTO at Tech Innovations Inc. With over 15 years of experience, she has led several cutting-edge projects in AI and machine learning.",
+                "image": "https://i.ibb.co/30cDGp7/woman-1.jpg"
             }
         ]
     },
@@ -35,7 +35,7 @@
                 "name": "Dr. Emma Roberts",
                 "title": "AI Research Scientist, AI Insights",
                 "bio": "Dr. Emma Roberts is an AI research scientist with a passion for exploring innovative AI applications. She has published numerous papers in renowned AI journals.",
-                "image": "https://i.ibb.co/GRn9B79/woman-2.jpg"
+                "image": "https://i.ibb.co/zPP59b4/woman-2.jpg"
             },
             {
                 "name": "Professor John Smith",
@@ -55,16 +55,16 @@
         "location": "Chicago, IL",
         "speakers": [
             {
-                "name": "Laura Thompson",
-                "title": "Chief Marketing Officer, Marketing Insights LLC",
-                "bio": "Laura Thompson is a seasoned marketing executive and CMO at Marketing Insights LLC. She specializes in digital marketing strategies and brand development.",
-                "image": "https://i.ibb.co/2yR9hrM/woman-3.jpg"
-            },
-            {
                 "name": "Mark Johnson",
                 "title": "Marketing Strategist, Global Ad Solutions",
                 "bio": "Mark Johnson is a marketing strategist with a focus on data-driven marketing approaches. He has helped numerous businesses optimize their marketing efforts for better results.",
                 "image": "https://i.ibb.co/J7hMVrJ/man-3.jpg"
+            },
+            {
+                "name": "Laura Thompson",
+                "title": "Chief Marketing Officer, Marketing Insights LLC",
+                "bio": "Laura Thompson is a seasoned marketing executive and CMO at Marketing Insights LLC. She specializes in digital marketing strategies and brand development.",
+                "image": "https://i.ibb.co/RvVcbWC/woman-3.jpg"
             }
         ]
     },
@@ -87,7 +87,7 @@
                 "name": "Dr. Charles Rodriguez",
                 "title": "Healthcare Policy Analyst, Health Insights Institute",
                 "bio": "Dr. Charles Rodriguez is a healthcare policy analyst at the Health Insights Institute, advocating for policy changes to enhance healthcare accessibility and affordability.",
-                "image": "https://i.ibb.co/RSsXqJz/man-4.jpg"
+                "image": "https://i.ibb.co/G355Yds/man-4.jpg"
             }
         ]
     },
@@ -101,16 +101,16 @@
         "location": "Seattle, WA",
         "speakers": [
             {
+                "name": "Mark Anderson",
+                "title": "Environmental Advocate, EcoSolutions",
+                "bio": "Mark Anderson is an environmental advocate at EcoSolutions, working on initiatives to promote eco-friendly practices and combat climate change.",
+                "image": "https://i.ibb.co/YL4RZBx/man-5.jpg"
+            },
+            {
                 "name": "Sarah Green",
                 "title": "Renewable Energy Expert, Green Energy Group",
                 "bio": "Sarah Green is a leading expert in renewable energy technologies and their applications. She actively contributes to creating a sustainable energy future.",
                 "image": "https://i.ibb.co/RpKRqw0/woman-5.jpg"
-            },
-            {
-                "name": "Mark Anderson",
-                "title": "Environmental Advocate, EcoSolutions",
-                "bio": "Mark Anderson is an environmental advocate at EcoSolutions, working on initiatives to promote eco-friendly practices and combat climate change.",
-                "image": "https://i.ibb.co/VVXVdW6/man-5.jpg"
             }
         ]
     },
@@ -127,7 +127,7 @@
                 "name": "David Carter",
                 "title": "CEO, Leadership Dynamics",
                 "bio": "David Carter is a successful CEO and leadership coach at Leadership Dynamics. He specializes in transformative leadership strategies for business growth.",
-                "image": "https://i.ibb.co/d2Gz8NZ/man-6.jpg"
+                "image": "https://i.ibb.co/H7F9f8v/man-6.jpg"
             },
             {
                 "name": "Lisa Davis",
