@@ -14,7 +14,7 @@ const Service = ({ conference }) => {
                 <h2 className="card-title">{name}</h2>
                 <p>{description.slice(0, 120)} <span className="text-[#007aff] font-extrabold">...</span></p>
                 <div className="card-actions justify-end">
-                    <Link to={`/conferenceDetails/${id}`}><button className="btn btn-primary bg-[#007aff]">View Details</button></Link>
+                    <Link to={`/conferenceDetails/${id}`}><button className="btn btn-primary bg-[#007aff] text-white">View Details</button></Link>
                 </div>
             </div>
         </div>

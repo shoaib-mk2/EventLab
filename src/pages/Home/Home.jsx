@@ -3,6 +3,7 @@ import { useContext } from "react";
 import Banner from "./Banner";
 import { AuthContext } from "../../provider/AuthProvider";
 import Services from "./Services";
+import TicketPlan from "./TicketPlan";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Services></Services>
+            <TicketPlan></TicketPlan>
         </div>
     );
 };
