@@ -5,6 +5,8 @@ import Speakers from "../pages/Speakers/Speakers";
 import Faq from "../pages/Faq/Faq";
 import Contact from "../pages/Contact/Contact";
 import ConferenceDetails from "../pages/ConferenceDetails/ConferenceDetails";
+import Login from "../pages/Login.jsx/Login";
+import Register from "../pages/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
                 path: "/conferenceDetails/:id",
                 element: <ConferenceDetails></ConferenceDetails>,
                 loader: () => fetch('/conferences.json')
+            },
+            {
+                path: "/login",
+                element: <Login></Login>
+            },
+            {
+                path: "/register",
+                element: <Register></Register>
             }
         ]
     }
