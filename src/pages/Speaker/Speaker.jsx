@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Speaker = ({ conference }) => {
     const { speaker1_name, speaker1_title, speaker1_bio, speaker1_image, speaker2_name, speaker2_title, speaker2_bio, speaker2_image } = conference;
