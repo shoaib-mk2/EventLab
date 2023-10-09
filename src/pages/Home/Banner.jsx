@@ -61,7 +61,7 @@ const Banner = () => {
                                         <MdLocationPin className='text-[#007aff]'></MdLocationPin>
                                         <p>{conference.location}</p>
                                     </div>
-                                    <button className="btn btn-primary bg-[#007aff] text-white">Book Now</button>
+                                    <button className="btn btn-primary bg-[#007aff] text-white mb-5">Book Now</button>
                                 </div>
                                 <img src={conference.speaker1_image} className="max-w-sm rounded-lg lg:rounded-r-full lg:rounded-t-full shadow-2xl" />
                             </div>
