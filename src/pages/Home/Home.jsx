@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import { AuthContext } from "../../provider/AuthProvider";
 import Services from "./Services";
 import TicketPlan from "./TicketPlan";
+import Newsletter from "./Newsletter";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
             <TicketPlan></TicketPlan>
+            <Newsletter></Newsletter>
         </div>
     );
 };
