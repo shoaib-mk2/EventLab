@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import Speakers from "../pages/Speakers/Speakers";
 import Faq from "../pages/Faq/Faq";
 import Contact from "../pages/Contact/Contact";
+import ConferenceDetails from "../pages/ConferenceDetails/ConferenceDetails";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact></Contact>
+            },
+            {
+                path: "/conferenceDetails/:id",
+                element: <ConferenceDetails></ConferenceDetails>,
+                loader: () => fetch('/conferences.json')
             }
         ]
     }

@@ -7,20 +7,14 @@
         "description": "Join us for the Tech Innovators Conference, where industry leaders and innovators come together to discuss the latest advancements in technology. Explore emerging technologies, breakthroughs, and their potential impact on various industries. Engage in interactive workshops, insightful presentations, and networking opportunities with professionals shaping the future of tech. Don't miss enlightening talks by tech visionaries such as Sarah Johnson and Michael Davis.",
         "date": "2023-11-15",
         "location": "San Francisco, CA",
-        "speakers": [
-            {
-                "name": "Michael Davis",
-                "title": "VP of Engineering, FutureTech Labs",
-                "bio": "Michael Davis is a technology enthusiast and VP of Engineering at FutureTech Labs. He specializes in IoT, blockchain, and cybersecurity.",
-                "image": "https://i.ibb.co/MBJbgSP/man-1.jpg"
-            },
-            {
-                "name": "Sarah Johnson",
-                "title": "CTO, Tech Innovations Inc.",
-                "bio": "Sarah Johnson is a seasoned technologist and CTO at Tech Innovations Inc. With over 15 years of experience, she has led several cutting-edge projects in AI and machine learning.",
-                "image": "https://i.ibb.co/30cDGp7/woman-1.jpg"
-            }
-        ]
+        "speaker1_name": "Michael Davis",
+        "speaker1_title": "VP of Engineering, FutureTech Labs",
+        "speaker1_bio": "Michael Davis is a technology enthusiast and VP of Engineering at FutureTech Labs. He specializes in IoT, blockchain, and cybersecurity.",
+        "speaker1_image": "https://i.ibb.co/MBJbgSP/man-1.jpg",
+        "speaker2_name": "Sarah Johnson",
+        "speaker2_title": "CTO, Tech Innovations Inc.",
+        "speaker2_bio": "Sarah Johnson is a seasoned technologist and CTO at Tech Innovations Inc. With over 15 years of experience, she has led several cutting-edge projects in AI and machine learning.",
+        "speaker2_image": "https://i.ibb.co/30cDGp7/woman-1.jpg"
     },
     {
         "id": 2,
@@ -30,20 +24,14 @@
         "description": "Dive into the future of artificial intelligence at the Future of AI Summit. This event features expert speakers, workshops, and interactive sessions focused on AI's latest trends, applications, and ethical considerations. Attendees will gain valuable insights into cutting-edge AI technologies and how they are reshaping various sectors. Engage with notable figures such as Dr. Emma Roberts and Professor John Smith, who will share their expertise and vision in the AI landscape.",
         "date": "2023-12-10",
         "location": "New York, NY",
-        "speakers": [
-            {
-                "name": "Dr. Emma Roberts",
-                "title": "AI Research Scientist, AI Insights",
-                "bio": "Dr. Emma Roberts is an AI research scientist with a passion for exploring innovative AI applications. She has published numerous papers in renowned AI journals.",
-                "image": "https://i.ibb.co/zPP59b4/woman-2.jpg"
-            },
-            {
-                "name": "Professor John Smith",
-                "title": "Head of AI Department, University of Tech",
-                "bio": "Professor John Smith is a leading expert in the field of AI and serves as the Head of AI Department at the University of Tech. He has extensive experience in AI research and education.",
-                "image": "https://i.ibb.co/rMhzHn7/man-2.jpg"
-            }
-        ]
+        "speaker1_name": "Dr. Emma Roberts",
+        "speaker1_title": "AI Research Scientist, AI Insights",
+        "speaker1_bio": "Dr. Emma Roberts is an AI research scientist with a passion for exploring innovative AI applications. She has published numerous papers in renowned AI journals.",
+        "speaker1_image": "https://i.ibb.co/zPP59b4/woman-2.jpg",
+        "speaker2_name": "Professor John Smith",
+        "speaker2_title": "Head of AI Department, University of Tech",
+        "speaker2_bio": "Professor John Smith is a leading expert in the field of AI and serves as the Head of AI Department at the University of Tech. He has extensive experience in AI research and education.",
+        "speaker2_image": "https://i.ibb.co/rMhzHn7/man-2.jpg"
     },
     {
         "id": 3,
@@ -53,20 +41,14 @@
         "description": "Elevate your marketing skills and knowledge at the Marketing Mastery Conference. Engage with industry experts who will share strategies for successful marketing campaigns, customer engagement, and data-driven decision-making. Discover the latest tools and trends to enhance your marketing effectiveness. Immerse yourself in enlightening sessions led by marketing gurus such as Laura Thompson and Mark Johnson.",
         "date": "2024-01-20",
         "location": "Chicago, IL",
-        "speakers": [
-            {
-                "name": "Mark Johnson",
-                "title": "Marketing Strategist, Global Ad Solutions",
-                "bio": "Mark Johnson is a marketing strategist with a focus on data-driven marketing approaches. He has helped numerous businesses optimize their marketing efforts for better results.",
-                "image": "https://i.ibb.co/J7hMVrJ/man-3.jpg"
-            },
-            {
-                "name": "Laura Thompson",
-                "title": "Chief Marketing Officer, Marketing Insights LLC",
-                "bio": "Laura Thompson is a seasoned marketing executive and CMO at Marketing Insights LLC. She specializes in digital marketing strategies and brand development.",
-                "image": "https://i.ibb.co/RvVcbWC/woman-3.jpg"
-            }
-        ]
+        "speaker1_name": "Mark Johnson",
+        "speaker1_title": "Marketing Strategist, Global Ad Solutions",
+        "speaker1_bio": "Mark Johnson is a marketing strategist with a focus on data-driven marketing approaches. He has helped numerous businesses optimize their marketing efforts for better results.",
+        "speaker1_image": "https://i.ibb.co/J7hMVrJ/man-3.jpg",
+        "speaker2_name": "Laura Thompson",
+        "speaker2_title": "Chief Marketing Officer, Marketing Insights LLC",
+        "speaker2_bio": "Laura Thompson is a seasoned marketing executive and CMO at Marketing Insights LLC. She specializes in digital marketing strategies and brand development.",
+        "speaker2_image": "https://i.ibb.co/RvVcbWC/woman-3.jpg"
     },
     {
         "id": 4,
@@ -76,20 +58,14 @@
         "description": "Immerse yourself in the world of healthcare innovation at the Healthcare Innovations Forum. Delve into discussions about the latest medical technologies, patient care advancements, and healthcare policies. Connect with healthcare professionals, researchers, and entrepreneurs to drive forward innovative solutions for better healthcare outcomes. Engage with healthcare luminaries such as Dr. Amanda Lee and Dr. Charles Rodriguez, who will share their insights and experiences in revolutionizing the healthcare industry.",
         "date": "2024-02-25",
         "location": "Los Angeles, CA",
-        "speakers": [
-            {
-                "name": "Dr. Amanda Lee",
-                "title": "Medical Innovations Specialist, MedTech Solutions",
-                "bio": "Dr. Amanda Lee is a medical innovations specialist at MedTech Solutions, focusing on developing cutting-edge medical devices for improved patient care.",
-                "image": "https://i.ibb.co/tPMRqrk/woman-4.jpg"
-            },
-            {
-                "name": "Dr. Charles Rodriguez",
-                "title": "Healthcare Policy Analyst, Health Insights Institute",
-                "bio": "Dr. Charles Rodriguez is a healthcare policy analyst at the Health Insights Institute, advocating for policy changes to enhance healthcare accessibility and affordability.",
-                "image": "https://i.ibb.co/G355Yds/man-4.jpg"
-            }
-        ]
+        "speaker1_name": "Dr. Amanda Lee",
+        "speaker1_title": "Medical Innovations Specialist, MedTech Solutions",
+        "speaker1_bio": "Dr. Amanda Lee is a medical innovations specialist at MedTech Solutions, focusing on developing cutting-edge medical devices for improved patient care.",
+        "speaker1_image": "https://i.ibb.co/tPMRqrk/woman-4.jpg",
+        "speaker2_name": "Dr. Charles Rodriguez",
+        "speaker2_title": "Healthcare Policy Analyst, Health Insights Institute",
+        "speaker2_bio": "Dr. Charles Rodriguez is a healthcare policy analyst at the Health Insights Institute, advocating for policy changes to enhance healthcare accessibility and affordability.",
+        "speaker2_image": "https://i.ibb.co/G355Yds/man-4.jpg"
     },
     {
         "id": 5,
@@ -99,20 +75,14 @@
         "description": "Discover sustainable and eco-friendly technology solutions at the GreenTech Expo. Learn about the latest developments in renewable energy, sustainable transportation, waste reduction, and more. Engage with industry leaders and environmental advocates who are pioneering a greener future. Interact with leading experts such as Sarah Green and Mark Anderson, dedicated to advancing sustainable technologies and environmental conservation.",
         "date": "2024-03-18",
         "location": "Seattle, WA",
-        "speakers": [
-            {
-                "name": "Mark Anderson",
-                "title": "Environmental Advocate, EcoSolutions",
-                "bio": "Mark Anderson is an environmental advocate at EcoSolutions, working on initiatives to promote eco-friendly practices and combat climate change.",
-                "image": "https://i.ibb.co/YL4RZBx/man-5.jpg"
-            },
-            {
-                "name": "Sarah Green",
-                "title": "Renewable Energy Expert, Green Energy Group",
-                "bio": "Sarah Green is a leading expert in renewable energy technologies and their applications. She actively contributes to creating a sustainable energy future.",
-                "image": "https://i.ibb.co/RpKRqw0/woman-5.jpg"
-            }
-        ]
+        "speaker1_name": "Mark Anderson",
+        "speaker1_title": "Environmental Advocate, EcoSolutions",
+        "speaker1_bio": "Mark Anderson is an environmental advocate at EcoSolutions, working on initiatives to promote eco-friendly practices and combat climate change.",
+        "speaker1_image": "https://i.ibb.co/YL4RZBx/man-5.jpg",
+        "speaker2_name": "Sarah Green",
+        "speaker2_title": "Renewable Energy Expert, Green Energy Group",
+        "speaker2_bio": "Sarah Green is a leading expert in renewable energy technologies and their applications. She actively contributes to creating a sustainable energy future.",
+        "speaker2_image": "https://i.ibb.co/RpKRqw0/woman-5.jpg"
     },
     {
         "id": 6,
@@ -122,19 +92,13 @@
         "description": "Enhance your leadership skills and management techniques at the Leadership Summit. Explore effective leadership strategies, organizational development, and team dynamics. Gain valuable insights from successful leaders and industry experts to empower yourself for career growth and leadership success. Learn from prominent speakers such as David Carter and Lisa Davis, who will share their journeys and expertise in effective leadership.",
         "date": "2024-04-12",
         "location": "Houston, TX",
-        "speakers": [
-            {
-                "name": "David Carter",
-                "title": "CEO, Leadership Dynamics",
-                "bio": "David Carter is a successful CEO and leadership coach at Leadership Dynamics. He specializes in transformative leadership strategies for business growth.",
-                "image": "https://i.ibb.co/H7F9f8v/man-6.jpg"
-            },
-            {
-                "name": "Lisa Davis",
-                "title": "Leadership Consultant, Inspire Leadership",
-                "bio": "Lisa Davis is a leadership consultant at Inspire Leadership, assisting organizations in developing strong leadership cultures. She is an advocate for inclusive and empathetic leadership.",
-                "image": "https://i.ibb.co/MS2tqYp/woman-6.jpg"
-            }
-        ]
+        "speaker1_name": "David Carter",
+        "speaker1_title": "CEO, Leadership Dynamics",
+        "speaker1_bio": "David Carter is a successful CEO and leadership coach at Leadership Dynamics. He specializes in transformative leadership strategies for business growth.",
+        "speaker1_image": "https://i.ibb.co/H7F9f8v/man-6.jpg",
+        "speaker2_name": "Lisa Davis",
+        "speaker2_title": "Leadership Consultant, Inspire Leadership",
+        "speaker2_bio": "Lisa Davis is a leadership consultant at Inspire Leadership, assisting organizations in developing strong leadership cultures. She is an advocate for inclusive and empathetic leadership.",
+        "speaker2_image": "https://i.ibb.co/MS2tqYp/woman-6.jpg"
     }
 ]

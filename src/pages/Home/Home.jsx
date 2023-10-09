@@ -2,6 +2,7 @@
 import { useContext } from "react";
 import Banner from "./Banner";
 import { AuthContext } from "../../provider/AuthProvider";
+import Services from "./Services";
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h1 className='text-3xl'>yoooooooooooooo</h1>
+            <Services></Services>
         </div>
     );
 };

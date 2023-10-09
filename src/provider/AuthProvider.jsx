@@ -7,7 +7,7 @@ const AuthProvider = ({ children }) => {
     // loading data from json file
     const [conferences, setConferences] = useState([]);
     useEffect(() => {
-        fetch('conferences.json')
+        fetch('/conferences.json')
             .then(res => res.json())
             .then(data => setConferences(data))
     }, [])

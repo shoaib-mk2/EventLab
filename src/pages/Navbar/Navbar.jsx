@@ -4,14 +4,46 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/speakers">SPEAKERS</NavLink></li>
-        <li><NavLink to="/faq">FAQ</NavLink></li>
-        <li><NavLink to="/contact">CONTACT</NavLink></li>
+        <li>
+            <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                }>
+                HOME
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/speakers"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                }>
+                SPEAKERS
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/faq"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                }>
+                FAQ
+            </NavLink>
+        </li>
+        <li>
+            <NavLink
+                to="/contact"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                }>
+                CONTACT
+            </NavLink>
+        </li>
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 w-4/5 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,7 +56,7 @@ const Navbar = () => {
                 <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 gap-4">
                     {navLinks}
                 </ul>
             </div>
