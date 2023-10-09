@@ -23,7 +23,21 @@ const Navbar = () => {
                 HOME
             </NavLink>
         </li>
-        <li>
+        {
+            user &&
+            <>
+                <li>
+                    <NavLink
+                        to="/speakers"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                        }>
+                        SPEAKERS
+                    </NavLink>
+                </li>
+            </>
+        }
+        {/* <li>
             <NavLink
                 to="/speakers"
                 className={({ isActive, isPending }) =>
@@ -31,7 +45,7 @@ const Navbar = () => {
                 }>
                 SPEAKERS
             </NavLink>
-        </li>
+        </li> */}
         <li>
             <NavLink
                 to="/faq"
@@ -41,7 +55,21 @@ const Navbar = () => {
                 FAQ
             </NavLink>
         </li>
-        <li>
+        {
+            user &&
+            <>
+                <li>
+                    <NavLink
+                        to="/contact"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "border-2 border-[#007aff] font-bold text-[#007aff]" : "font-bold "
+                        }>
+                        CONTACT
+                    </NavLink>
+                </li>
+            </>
+        }
+        {/* <li>
             <NavLink
                 to="/contact"
                 className={({ isActive, isPending }) =>
@@ -49,7 +77,7 @@ const Navbar = () => {
                 }>
                 CONTACT
             </NavLink>
-        </li>
+        </li> */}
     </>
 
     return (

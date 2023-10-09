@@ -16,6 +16,7 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name, email, password);
 
+        // verifying if the password length is 6 or more
         if (password.length < 6) {
             return toast('Your password is less than 6 characters', {
                 position: "top-center",
@@ -29,8 +30,25 @@ const Register = () => {
                 type: "error"
             });
         }
+
+        // verifying if the password have any capital letters
         else if (!/[A-Z]/.test(password)) {
             return toast('Your password do not have a capital letter', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                type: "error"
+            });
+        }
+        
+        // verifying if the password have any special characters
+        else if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+            return toast("Your password don't have any special characters", {
                 position: "top-center",
                 autoClose: 5000,
                 hideProgressBar: false,
