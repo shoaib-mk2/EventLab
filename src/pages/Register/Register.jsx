@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
 
@@ -14,6 +16,33 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name, email, password);
 
+        if (password.length < 6) {
+            return toast('Your password is less than 6 characters', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                type: "error"
+            });
+        }
+        else if (!/[A-Z]/.test(password)) {
+            return toast('Your password do not have a capital letter', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                type: "error"
+            });
+        }
+
         // create user in firebase
         createUser(email, password)
             .then(result => {
@@ -23,6 +52,16 @@ const Register = () => {
             })
             .catch(error => {
                 console.error(error);
+                toast(error.message, {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
             })
     }
 
@@ -62,6 +101,7 @@ const Register = () => {
                 </div>
                 <p className="px-8 pb-4">Already have account? Please <Link className="font-bold text-[#007aff]" to="/login">Login</Link></p>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };

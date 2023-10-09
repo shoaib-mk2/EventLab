@@ -7,6 +7,7 @@ import Contact from "../pages/Contact/Contact";
 import ConferenceDetails from "../pages/ConferenceDetails/ConferenceDetails";
 import Login from "../pages/Login.jsx/Login";
 import Register from "../pages/Register/Register";
+import PrivateRoute from "../pages/Routes/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/speakers",
-                element: <Speakers></Speakers>,
+                element: <PrivateRoute><Speakers></Speakers></PrivateRoute>,
                 loader: () => fetch('/conferences.json')
             },
             {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/conferenceDetails/:id",
-                element: <ConferenceDetails></ConferenceDetails>,
+                element: <PrivateRoute><ConferenceDetails></ConferenceDetails></PrivateRoute>,
                 loader: () => fetch('/conferences.json')
             },
             {

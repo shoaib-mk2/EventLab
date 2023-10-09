@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
 import { BsGoogle } from "react-icons/bs";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
@@ -24,6 +25,16 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
+                toast(error.message, {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
             })
     }
 
@@ -35,6 +46,16 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
+                toast(error.message, {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
             })
     }
 
@@ -75,6 +96,7 @@ const Login = () => {
                     <p className="px-8 pb-4">New here? Please <Link className="text-[#007aff] font-bold" to="/register">Register</Link></p>
                 </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
