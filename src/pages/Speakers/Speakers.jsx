@@ -1,9 +1,15 @@
+import { useLoaderData } from "react-router-dom";
+import Speaker from "../Speaker/Speaker";
 
 
 const Speakers = () => {
+    const conferences = useLoaderData();
+
     return (
         <div>
-            <h2 className="text-3xl">speakers</h2>
+            {
+                conferences.map(conference => <Speaker key={conference.id} conference={conference}></Speaker>)
+            }
         </div>
     );
 };

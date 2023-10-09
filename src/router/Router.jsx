@@ -17,7 +17,8 @@ const router = createBrowserRouter([
             },
             {
                 path: "/speakers",
-                element: <Speakers></Speakers>
+                element: <Speakers></Speakers>,
+                loader: () => fetch('/conferences.json')
             },
             {
                 path: "/faq",
