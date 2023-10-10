@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
 
@@ -45,7 +46,7 @@ const Register = () => {
                 type: "error"
             });
         }
-        
+
         // verifying if the password have any special characters
         else if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
             return toast("Your password don't have any special characters", {
@@ -64,9 +65,15 @@ const Register = () => {
         // create user in firebase
         createUser(email, password)
             .then(result => {
+                updateProfile(result.user, {
+                    displayName: name
+                })
+                    .then(() => console.log('profile updated'))
+                    .catch((error) => console.log(error))
                 console.log(result.user);
                 e.target.reset();
                 navigate("/"); // redirect user to home page after successful registration
+                window.location.reload()
             })
             .catch(error => {
                 console.error(error);

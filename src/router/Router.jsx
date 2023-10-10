@@ -8,11 +8,14 @@ import ConferenceDetails from "../pages/ConferenceDetails/ConferenceDetails";
 import Login from "../pages/Login.jsx/Login";
 import Register from "../pages/Register/Register";
 import PrivateRoute from "../pages/Routes/PrivateRoute";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import Blog from "../pages/Blog/Blog";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",
@@ -43,6 +46,10 @@ const router = createBrowserRouter([
             {
                 path: "/register",
                 element: <Register></Register>
+            },
+            {
+                path: "/blog",
+                element: <PrivateRoute><Blog></Blog></PrivateRoute>
             }
         ]
     }
