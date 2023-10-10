@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,6 +15,11 @@ import { MdLocationPin } from 'react-icons/md';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { AuthContext } from '../../provider/AuthProvider';
 
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 const Banner = () => {
     const { conferences, formatDate } = useContext(AuthContext);
 
@@ -24,9 +29,12 @@ const Banner = () => {
         progressCircle.current.style.setProperty('--progress', 1 - progress);
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    }, []);
 
     return (
-        <div className='mb-10'>
+        <div className='mb-10' data-aos="fade-up">
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

@@ -1,9 +1,17 @@
 import { BsCheckLg, BsXLg } from "react-icons/bs";
-
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const TicketPlan = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
+
     return (
-        <div className="w-4/5 mx-auto text-center mb-16">
+        <div className="w-4/5 mx-auto text-center mb-16" data-aos="fade-right">
             <h2 className="text-4xl font-bold mb-10">Get Sponsor Ticket</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <div className="shadow-2xl rounded-xl">
